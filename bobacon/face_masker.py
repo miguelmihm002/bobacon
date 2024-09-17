@@ -20,12 +20,12 @@ MODELS : ModelSet =\
 {
 	'face_occluder':
 	{
-		'url': 'https://github.com/miguelmihm002/bobacon/bobacon-assets/releases/download/models/face_occluder.onnx',
+		'url': 'https://github.com/miguelmihm002/bobacon/releases/download/models/face_occluder.onnx',
 		'path': resolve_relative_path('../.assets/models/face_occluder.onnx')
 	},
 	'face_parser':
 	{
-		'url': 'https://github.com/miguelmihm002/bobacon/bobacon-assets/releases/download/models/face_parser.onnx',
+		'url': 'https://github.com/miguelmihm002/bobacon/releases/download/models/face_parser.onnx',
 		'path': resolve_relative_path('../.assets/models/face_parser.onnx')
 	}
 }

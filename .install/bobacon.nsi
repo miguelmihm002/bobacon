@@ -91,7 +91,7 @@ Section 'Download Your Copy'
 
 	DetailPrint 'Download Your Copy'
 	RMDir /r $INSTDIR
-	nsExec::Exec '$LOCALAPPDATA\Programs\Git\cmd\git.exe clone https://github.com/miguelmihm002/bobacon .'
+	nsExec::Exec '$LOCALAPPDATA\Programs\Git\cmd\git.exe clone https://github.com/miguelmihm002/bobacon'
 SectionEnd
 
 Section 'Setup Your Environment'
