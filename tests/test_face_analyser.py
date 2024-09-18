@@ -12,7 +12,7 @@ from bobacon.vision import read_static_image
 def before_all() -> None:
 	conditional_download('.assets/examples',
 	[
-		'https://github.com/miguelmihm002/bobacon/bobacon-assets/releases/download/examples/source.jpg'
+		'https://github.com/miguelmihm002/bobacon/releases/download/models/source.jpg'
 	])
 	subprocess.run([ 'ffmpeg', '-i', '.assets/examples/source.jpg', '-vf', 'crop=iw*0.8:ih*0.8', '.assets/examples/source-80crop.jpg' ])
 	subprocess.run([ 'ffmpeg', '-i', '.assets/examples/source.jpg', '-vf', 'crop=iw*0.7:ih*0.7', '.assets/examples/source-70crop.jpg' ])

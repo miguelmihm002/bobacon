@@ -9,7 +9,7 @@ from bobacon.download import conditional_download
 def before_all() -> None:
 	conditional_download('.assets/examples',
 	[
-		'https://github.com/miguelmihm002/bobacon/bobacon-assets/releases/download/examples/source.mp3'
+		'https://github.com/miguelmihm002/bobacon/releases/download/models/source.mp3'
 	])
 	subprocess.run([ 'ffmpeg', '-i', '.assets/examples/source.mp3', '.assets/examples/source.wav' ])
 

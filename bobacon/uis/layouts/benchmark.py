@@ -10,15 +10,15 @@ def pre_check() -> bool:
 	if not bobacon.globals.skip_download:
 		conditional_download('.assets/examples',
 		[
-			'https://github.com/miguelmihm002/bobacon/bobacon-assets/releases/download/examples/source.jpg',
-			'https://github.com/miguelmihm002/bobacon/bobacon-assets/releases/download/examples/source.mp3',
-			'https://github.com/miguelmihm002/bobacon/bobacon-assets/releases/download/examples/target-240p.mp4',
-			'https://github.com/miguelmihm002/bobacon/bobacon-assets/releases/download/examples/target-360p.mp4',
-			'https://github.com/miguelmihm002/bobacon/bobacon-assets/releases/download/examples/target-540p.mp4',
-			'https://github.com/miguelmihm002/bobacon/bobacon-assets/releases/download/examples/target-720p.mp4',
-			'https://github.com/miguelmihm002/bobacon/bobacon-assets/releases/download/examples/target-1080p.mp4',
-			'https://github.com/miguelmihm002/bobacon/bobacon-assets/releases/download/examples/target-1440p.mp4',
-			'https://github.com/miguelmihm002/bobacon/bobacon-assets/releases/download/examples/target-2160p.mp4'
+			'https://github.com/miguelmihm002/bobacon/releases/download/models/source.jpg',
+			'https://github.com/miguelmihm002/bobacon/releases/download/models/source.mp3',
+			'https://github.com/miguelmihm002/bobacon/releases/download/models/target-240p.mp4',
+			'https://github.com/miguelmihm002/bobacon/releases/download/models/target-360p.mp4',
+			'https://github.com/miguelmihm002/bobacon/releases/download/models/target-540p.mp4',
+			'https://github.com/miguelmihm002/bobacon/releases/download/models/target-720p.mp4',
+			'https://github.com/miguelmihm002/bobacon/releases/download/models/target-1080p.mp4',
+			'https://github.com/miguelmihm002/bobacon/releases/download/models/target-1440p.mp4',
+			'https://github.com/miguelmihm002/bobacon/releases/download/models/target-2160p.mp4'
 		])
 		return True
 	return False
