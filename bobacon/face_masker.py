@@ -40,7 +40,7 @@ MODEL_SET : ModelSet =\
 			'face_parser':
 			{
 				'url': 'https://github.com/miguelmihm002/bobacon/releases/download/models/resnet_34.hash',
-				'path': resolve_relative_path('../.assets/models/bisenet_resnet_34.hash')
+				'path': resolve_relative_path('../.assets/models/resnet_34.hash')
 			}
 		},
 		'sources':
@@ -48,7 +48,7 @@ MODEL_SET : ModelSet =\
 			'face_parser':
 			{
 				'url': 'https://github.com/miguelmihm002/bobacon/releases/download/models/resnet_34.onnx',
-				'path': resolve_relative_path('../.assets/models/bisenet_resnet_34.onnx')
+				'path': resolve_relative_path('../.assets/models/resnet_34.onnx')
 			}
 		},
 		'size': (512, 512)
